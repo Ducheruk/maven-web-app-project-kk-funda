@@ -84,12 +84,12 @@
 		
 		<!-- provided dependencies -->
 
-		<!-- <dependency>
+		 <dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>-->
+		</dependency>
 		
 	</dependencies>
 	
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>dev-demorelease</id>
 	      <name>dev-demo Releases Nexus Repository</name>
-	      <url>http://3.6.66.49:8081/repository/dev-demorelease/</url>
+	      <url>http://13.203.91.147:8081/repository/dev-demorelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>dev-demosnapshot</id>
 	      <name>dev-demo Snapshot Nexus Repository </name>
-	      <url>http://3.6.66.49:8081/repository/dev-demosnapshot/</url>
+	      <url>http://13.203.91.147:8081/repository/dev-demosnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
