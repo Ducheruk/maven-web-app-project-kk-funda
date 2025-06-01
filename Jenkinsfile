@@ -26,7 +26,7 @@ pipeline {
         sh "${env.MAVEN_HOME}/bin/mvn sonar:sonar"
       }
     }
-    stage('nexus') {
+    /*stage('nexus') {
       steps {
         sh "${env.MAVEN_HOME}/bin/mvn clean deploy"
       }
@@ -50,5 +50,5 @@ pipeline {
     failure {
       slackSend(channel: env.MYCHANNEL, color: 'danger', message: "bad failure for ${env.JOB_NAME} #${env.BUILD_NUMBER}")
     }
-  }
+  }*/
 }
